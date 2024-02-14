@@ -94,4 +94,5 @@ def lambda_handler(event, context):
         'body': json.dumps(results)
     }
 
+# Uncomment to run locally
 # lambda_handler("a", "b")
